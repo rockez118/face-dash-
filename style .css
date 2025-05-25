@@ -1,0 +1,34 @@
+/* Reset default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #181c24;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+/* Game container to fill the screen */
+#game-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Add styling for overlay text or UI if needed */
+.text-overlay {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
